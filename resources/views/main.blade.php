@@ -9,7 +9,8 @@
 <div class="container">
 
 
-    @yield('content');
+    @include('partial._messages')
+    @yield('content')
 
 
     @include('partial._footer')

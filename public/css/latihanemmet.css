@@ -1,0 +1,890 @@
+html{
+    font-size: 30px;
+}
+
+
+.bfi-blurWrapper{
+
+}
+
+
+body{
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.625;
+
+    overflow: hidden;
+    overflow-x: hidden!important;
+
+
+
+
+}
+
+
+
+.bfi-homeparagraph{
+    width: 400px;
+}
+
+
+.bfi-promotionalHide{
+    display: block;
+    height: 50px;
+    margin-top: 50px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    letter-spacing: 1px;
+}
+
+.bfi-right-responsiveMenu{
+    display: none;}
+.bfi-background-mobile{
+    display: inline;
+}
+
+.bfi-navbar-toggler:focus{
+
+    outline: none !important;
+    padding:0px;
+    width: auto !important;
+}
+
+.bfi-preloadWrapper{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1500;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.bfi-preload{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1500;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-direction: row;
+    transition : 0.8s all ease-in-out;
+}
+
+.bfi-preload img{
+    width: 360px;
+    height: 360px;
+}
+
+.bfi-preloadImage{
+    top: 25vh;
+    position: relative;
+    z-index: 1600;
+    width: 360px;
+    height: 360px;
+    background-color: transparent;
+    transition 0.6s all ease-in-out;
+
+}
+
+.bfi-preloadText{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    margin-top: -60px;
+    margin-left: 163px;
+    font-style: italic;
+}
+
+.bfi-preloadCircle{
+    top: 25vh;
+    width: 360px;
+    height: 360px;
+    background-color: #51c8eb;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    transition:0.4s all ease-in-out;
+    transform-origin:50% 50%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+
+
+
+
+}
+
+.bfi-preloadCircle:hover{
+    transform:scale(7);
+}
+
+.bfi-navbar-toggler{
+    background-color: transparent;
+    border: 0px;
+    outline: none !important;
+    text-align: left;
+    padding: 0 !important;
+    width: auto;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    vertical-align: middle;
+}
+
+
+.bfi-navbar-toggler-close{
+    background-color: transparent;
+    border: 0;
+    outline: none !important;
+    text-align: left;
+    width: auto !important;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    vertical-align: middle;
+}
+
+
+
+.navbar-brand{
+    width: 400px;
+    align-content: horizontal;
+}
+
+.bfi-mobileMenu{
+    margin-left: 25px;
+}
+
+.bfi-background{
+    background-color: #484e4f;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 5;
+}
+
+.bfi-home{
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    pointer-events: none;
+}
+
+
+
+.bfi-secTopest{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+
+    background-image: url(../img/bgportfo5.svg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-repeat:no-repeat;
+    background-position: right top;
+}
+
+.bfi-secSecond{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 50;
+    top: -100vh;
+    transition:all 0.2s ease-out;
+    background-repeat: repeat-x;
+
+}
+
+.bfi-secSecond-bg1{
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/line1.png);
+    transition:all 0.2s ease-in-out;
+    background-size-y:100% ;
+    background-repeat: repeat-x;
+    background-position: 0%;
+    transform:translatex("-80ox");
+    clear: both;
+    z-index: 5;
+}
+
+.bfi-secSecond-bg2{
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/line2.png);
+    transition:all0.2s ease-out;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-position: 0%;
+    clear: both;
+    z-index: 4;
+}
+
+.bfi-secSecond-bg3{
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background-image: url(../img/line3.png);
+    transition:all 0.2s ease-out;
+    background-size-y:100%;
+    background-repeat: repeat-x;
+    background-position: 0;
+    clear: both;
+    z-index: 2;
+}
+
+
+.bfi-secThird{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #fff;
+    background-image: url(../img/bgportfo3.svg);
+    background-repeat:no-repeat;
+    background-size: 80%;
+}
+
+.bfi-secFourth{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #0fcdef;
+}
+
+
+.bfi-secFourth{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top:-100vh;
+    background-color: #0fcdef;
+}
+
+
+.bfi-secFooter{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #0fcdef;
+}
+
+.bfi-secFooter{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #fff;
+    background-image: url(../img/bgfooter.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.bfi-secOurTeam{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #102334;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+
+
+}
+
+.bfi-secGrowWithUs{
+    height:auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 50;
+    top: -100vh;
+    background-color: #fff;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bfi-placeGrowWithUs{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.bfi-lastSuperPage{
+    height: 100vh;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 50;
+    top: -100vh;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.bfi-nav-burgericon{
+    color: #fff;
+    font-size: 3.6rem;
+}
+
+.bfi-nav-closecloseclose{
+    color: #102334;
+}
+
+.bfi-nav-logo-white{
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 307px;
+    height: 108px;
+    z-index: 11;
+    padding-right: 0;
+    margin-right: auto;
+    position: relative;
+    transition : 0.4s all ease-out;
+}
+
+.bfi-nav-logo-white svg{
+    transition:0.4s all ease-out;
+    transform-origin:bottom left;
+}
+
+.bfi-nav-logo{
+    float: left;
+}
+
+.bfi-menu-page-wrapper{
+    width: 70px;
+    height: 450px;
+    margin-top: 50px;
+    pointer-events: auto;
+}
+
+.bfi-menu-page-wrapper a{
+    color:#333;
+}
+
+.bfi-menu-page-wrapper a:hover{
+    text-decoration: none;
+}
+
+
+.bfi-menu-page-wrapper a:hover .bfi-linkName{
+    opacity: 1;
+}
+
+
+.bfi-pointerOn{
+    pointer-events:auto;
+    padding: 0 !important;
+    padding-bottom: 4px !important;
+    transition:0.2s background-color ease-out;
+    transition : 0.4s transform ease-out;
+}
+
+.bfi-mp-square{
+    width: 72px;
+    height: 56px;
+    background-color: transparent;
+    padding-top: 21px;
+    z-index: 40;
+}
+
+.bfi-linkName{
+    background-color: transparent;
+    width: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: -60px;
+    letter-spacing: 24px;
+    line-height: 24;
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    transition:0.2s all ease-out;
+}
+
+
+.bfi-container1{
+    display: flex;
+    flex-direction:horizontal;
+}
+
+.bfi-containerTopest{
+    background-color: transparent;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    z-index: 30;
+    padding-top: 120px;
+}
+
+.bfi-containerFooter{
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    z-index: 30;
+}
+
+.bfi-containerTeam{
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+}
+
+.bfi-containerTopest2{
+    background-color: transparent;
+    flex-direction: column;
+    z-index: 30;
+    padding-top: 120px;
+}
+
+.bfi-secTopest{
+    height: 100vh;
+}
+
+.bfi-mp-square2{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    padding: 5px;
+    border:transparent 4px solid;
+    margin-left: 21px;
+    transition:all 0.1s ease-in-out;
+    z-index: 30;
+}
+
+
+.bfi-mp-square2:hover{
+    border:4px solid;
+    transform:scale(1.2,1.2);
+}
+
+.bfi-mp-square3{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    z;30%
+}
+
+.bfi-top-page{
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.bfi-top-page span{
+    border-bottom:#000 4px solid;
+}
+
+.bfi-projectSubtitle{
+    font-weight: 500 !important;
+    font-style: italic;
+}
+
+.bfi-content-place{
+    background-color: transparent;
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+}
+
+
+.bfi-content-place2-1{
+    background-color: transparent;
+    width: 512px;
+    height: 316px;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    z-index: 100;
+}
+
+.bfi-content-place4-1{
+    background-color: transparent;
+    width: 512px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.bfi-content-place2-2{
+    background-color: transparent;
+    width: 300px;
+    height: 62vh;
+    margin-top: 50px;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.bfi-content-place3{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.bfi-invisibletag{
+    display: none;
+}
+
+
+.bfi-content-placeFooter{
+    background-color: #102334;
+    width: 65%;
+    height: 325px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../img/logofooter.png);
+}
+
+.bfi-content-placeTeam{
+    background-color: #fff;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 35%;
+    height: 325px;
+    display: flex;
+    text-align: right;
+    background-color: #fff;
+}
+
+.bfi-content-placeTeamTitle{
+    background-color: transparent;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 120px;
+    color: #fff;
+    
+}
+
+.bfi-personPiece{
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.bfi-photoCircle{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 180px;
+    border: 0;
+    height: 180px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    transitioN:6s all ease-out;
+    transition:0.2s border ease-in-out;
+    cursor: pointer;
+}
+
+
+.bfi-dotsLineOurTeam{
+    border-top:dotted 4px;
+    width: 90%;
+    margin-left: 0%;
+    display: block;
+}
+
+.bfi-photoCircle:hover{
+
+}
+
+.bfi-photoCircle:hover img{
+    transition:6s all ease-out;
+    transform:scale(1.4);
+}
+
+.bfi-photoCircle img{
+    transition : 3s all ease-out;
+    width: 100%;
+}
+
+
+.bfi-photoCircleText{
+    width: 100%;
+    text-align: center;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.bfi-spaceKosong{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+    pointer-events: none;
+}
+
+.bfi-personDesc{
+    background-color: transparent;
+    width: 540px;
+    padding-right: 70px;
+    min-height: 100px;
+    position: absolute;
+    margin-left: 0;
+}
+
+.bfi-content-placeTeamPhotos{
+    background-color: transparent;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: auto;
+    position:flex;
+    justify-content: flex-end;
+    padding-left: 120px;
+}
+
+.contactFormLittle{
+    width: 100%;
+    background-color: transparent;
+    border:2px solid white;
+    padding-left:6px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    color: #fff;
+    transition : 0.1s all ease-in-out;
+    margin-bottom: 12px;
+}
+
+.contactFormLittle:hover{
+    outline: none;
+    border-left:6px solid white;
+}
+
+.contactFormLittle:focus{
+    outline: none;
+    border-left:6px solid white;
+}
+
+.contactFormLittle::-webkit-input-placeholder{
+    color:#cdcdcd;
+}
+
+.contactFormLittle::-moz-placeholder{
+    color: #cdcdcd;
+}
+
+.contactFormSubmit{
+    width: 50%;
+    background-color: transparent;
+    border:2px solid white;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    color: #FFFFFF;
+    transition:0.1s all ease-in-out;
+    margin-bottom: 12px;
+}
+
+.contactFormSubmit{
+    width: 50%;
+    background-color: transparent;
+    border: 0;
+    padding-left:6px;
+    padding-top:4px;
+    padding-bottom: 6px;
+    color:white;
+    background-color: #213f53;
+    transition : 0.2s all ease-in-out;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.contactFormSubmit:hover{
+    background-color: #FFFFFF;
+    color: #102334;
+}
+
+
+.contactFormTitle{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.contactFormWrapper{
+    background-color: transparent;
+    height: auto;
+    text-align: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px 0px 20px 20px;
+    padding-right: 0;
+}
+
+.bfi-content-placefooter-2{
+    background-color: #102334;
+    width: 35%;
+    height: auto;
+    position: relative;
+    display: flex;
+    text-align: right;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:20px 0px 20px 20px;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
