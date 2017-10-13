@@ -10,7 +10,9 @@
 
 
     @include('partial._messages')
-    @yield('content')
+
+   {{-- {{Auth::check()?"Logged In":"Not Logged In"}}
+--}}    @yield('content')
 
 
     @include('partial._footer')

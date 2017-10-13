@@ -17,8 +17,31 @@
             <ul class="nav navbar-nav">
                 <li class="{{Request::is('/')?"active":""}}"><a href="/">Home</a></li>
                 <li class="{{Request::is('about')?"active":""}}"><a href="/about">About</a></li>
+                <li class="{{Request::is('about')?"active":""}}"><a href="{{route('categories.index')}}">Categories</a></li>
                 <li class="{{Request::is('contact')?"active":""}}"><a href="/contact">Contact</a></li>
             </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                @if (Auth::check())
+                <li class="dropdown">
+                    <a href="/" class="dropdown-toggle" data-toggle="dropdown" role ="butt"
+                    haspopup="true" aria-expanded="false">Hello {{Auth::user()->name}}</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{route('posts.index')}}">Posts</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="{{route('logout')}}">Logout</a></li>
+                    </ul>
+                </li>
+                @else
+                    <a href="{{route('login')}}" class="btn btn-default">Login</a>
+
+                @endif
+
+            </ul>
+
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

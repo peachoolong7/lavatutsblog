@@ -11,6 +11,10 @@ use Session;
 
 class PostsController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth');
+
+    }
     /**
      * Display a listing of the resource.
      *
@@ -32,8 +36,10 @@ class PostsController extends Controller
     public function create()
     {
         //
+        $categories = Category::all();
 
-        return view('posts.create');
+
+        return view('posts.create')->with('categories', $categories);
     }
 
     /**
